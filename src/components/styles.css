@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#fields {
+  margin: 25px;
+  color: white;
+}
+
+#button {
+  color: rgb(0, 47, 255);
+  margin: 25px;
+  padding: 10px;
+  font-size: 30px;
+  width: 100px;
+  border-radius: 8px;
+  border: 3px solid #555;
+  box-shadow: 10px 10px 8px #555;
+  background-color: rgba(255, 255, 255, 0.651);
+}
+#button:disabled {
+  display: none;
+}
+
+#button1:disabled {
+  display: none;
+}
+
+#Member:disabled {
+  display: none;
+}
+
+input {
+  margin: 25px;
+  padding: 10px;
+  font-size: 15px;
+  width: 350px;
+  border-radius: 8px;
+  border: 3px solid #555;
+  box-shadow: 10px 10px 8px #555;
+  background-color: rgba(255, 255, 255, 0.788);
+}
+* {
+  background-color: lightblue;
+  padding: 2px;
+}
